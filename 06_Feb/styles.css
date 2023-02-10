@@ -1,0 +1,184 @@
+.bg-orange
+{
+    background-color: rgb(226, 105, 62);
+}
+
+.navbar-nav li a
+{
+    color: white;
+}
+.carousel-item
+{
+    height: 500px;
+
+}
+
+.carousel-item img
+{
+    height: 500px;
+
+}
+
+.relative
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+}
+
+.carousel-caption
+{
+    border-radius: 185px;
+    padding: 2px 50px;
+}
+
+.carousel-caption #myBtn{
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    padding:12px 0;
+    display: inline-block;
+    width: 150px;
+    border: 1px solid orangered;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .Title
+{
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+.about 
+{
+    padding:90px 0;
+}
+
+.Title h2{
+    
+    border-bottom: orangered solid 1px;
+    width: 400px;
+    margin: 0px auto;
+}
+.Title p {
+    padding-top: 15px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.flexcss 
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.about .info 
+{
+    max-width: 530px;
+    width: 100%;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.about a{
+
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    line-height: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 189px;
+    margin: 0 auto;
+    padding: 15px 0;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.screenshot-about
+{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.screenshot-about h2{
+    border-bottom: 1px solid orangered;
+    width:400px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.screenshot-about p{
+    padding-top: 10px;
+    
+}
+
+.fixed
+{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+.modal-content {
+    background-color: #e49393;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #888;
+    width: 80%;
+    color: black;
+    display: flex;
+  }
+  
+  /* The Close Button */ 
+   .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-content .flex
+  {
+    display: flex;
+  }
+
+  
+
+
+@media only screen and (max-width: 970px)  {
+    
+.about .info 
+{
+    max-width: 660px; 
+    margin: 0;
+}
+
+
+}
+
+
