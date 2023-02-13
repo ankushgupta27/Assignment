@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="ass3.css">
+    <script>
+        $(document).ready(function(){
+            $("#appendTo").click(function(){
+                $("#name_list li:first-child").each(function()
+                {
+                    $(this).remove().appendTo('#swap_res ul');
+                })
+             })
+             $("#prependTo").click(function()
+             {
+             $("#swap_res li:first-child").each(function()
+                {
+                    $(this).remove().appendTo('.list ul');
+                })
+            })
+});
+    </script>
+</head>
+<body>
+    <div class="swap_ele" id="name_list">
+        <div class="list">
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+            </ul>
+        </div>
+        <div class="btn">
+            <div class="append">
+                <button id="appendTo">append To another div</button>
+            </div>
+            <div class="prepend">
+                <button id="prependTo">back to main div</button>
+            </div>
+        </div>
+        <div class="swap" id="swap_res">
+            <ul>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
